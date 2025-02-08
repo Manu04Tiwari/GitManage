@@ -8,7 +8,7 @@ const LoginPage = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <h1 className="text-2xl font-semibold mb-6">Welcome to Panto</h1>
-      <div className="space-y-4">
+      <div className="space-y-4" >
         <button
           onClick={() => handleLogin("gitlab")}
           className="px-6 py-2 bg-red-500 text-white rounded-lg shadow hover:bg-red-600"
@@ -28,7 +28,7 @@ const LoginPage = () => {
           Login using BitBucket
         </button>
       </div>
-      <p className="mt-10 text-gray-500">Login Page</p>
+     
     </div>
   );
 };
